@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    a{
+        transition: all 0.4s ease;
+
+        &:hover{
+            font-size: 1.05em;
+        }
+    }
+
+    .left{
+        width: 60%;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        img{
+            width: 28px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+    }
+    .right{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 24px;
+        background-color: rgb(251, 246, 240);
+        height: 100%;
+
+        .log{
+            padding: 10px 17px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+        }
+
+        .register{
+            background-color: rgb(252, 219, 179);
+            padding: 10px 17px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            margin-right: 12px;
+        }
+    }
+}

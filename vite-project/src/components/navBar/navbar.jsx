@@ -1,11 +1,11 @@
 import React from 'react'
 import './navbar.css'
-const navbar = () => {
+const navbar =()=> {
   return (
     <nav>
         <div className='left'>
-            <a href="#">
-                <img src="" alt="" />
+            <a href="#" className='logo'>
+                <img src="../images/logo.png" alt="logo" />
                 <span>VeroEstate</span>
             </a>
             <a href="/">Home</a>
@@ -14,8 +14,8 @@ const navbar = () => {
             <a href="/">Agents</a>
         </div>
         <div className='right'>
-            <a href="/">Sign In</a>
-            <a href="/">Sign Up</a>
+            <a href="/" className='log'>Sign In</a>
+            <a href="/" className='register'>Sign Up</a>
         </div>
     </nav>
   )
