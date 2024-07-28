@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+  }
+  
+  .layout{
+    height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 26px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content{
+    flex: 1;
+  }
+  
+  
+  /* Responsive Layout */
+  @media (max-width: 768px){
+    .layout{
+      background-color: blueviolet;
+      max-width: 680px;
+    }
+  }

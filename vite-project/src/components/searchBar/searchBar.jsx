@@ -13,7 +13,7 @@ const searchBar = () => {
   })
 
   const switchType = (val)=>{
-    setQuery((prev)=>({...prev, type:val}))
+    setQuery({...query, type:val})
   }
 
   return (

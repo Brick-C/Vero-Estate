@@ -10,6 +10,7 @@ nav{
         &:hover{
             font-size: 1.05em;
         }
+      
     }
 
     .left{
@@ -42,7 +43,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        gap: 24px;
+        gap: 25px;
         background-color: rgb(251, 246, 240);
         height: 100%;
 
@@ -61,7 +62,7 @@ nav{
             text-decoration: none;
             color: black;
             font-weight: 600;
-            margin-right: 12px;
+            margin-right: 16px;
         }
     }
 }
