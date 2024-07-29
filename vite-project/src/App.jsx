@@ -4,6 +4,8 @@ import ListPage from './routes/listPage/listPage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './routes/layout/Layout'
 import Login from './routes/login/login'
+import SinglePage from './routes/singlePage/singlePage'
+
 const App = ()=> {
   const router = createBrowserRouter([
     {
@@ -22,6 +24,12 @@ const App = ()=> {
           path:'/list',
           element:(
             <ListPage/>
+          )
+        },
+        {
+          path:':id',
+          element:(
+            <SinglePage/>
           )
         },
         {

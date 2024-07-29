@@ -1,0 +1,47 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    
+    .item{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+
+        label{
+            font-size: 12px;
+            font-weight: 600;
+        }
+        input,select{
+            width: 100px;
+            padding: 8px;
+            border: 1px solid rgb(221, 216, 216);
+            border-radius: 4px
+        };
+    }
+
+    .top{
+        input{
+            width: 100%;
+        }
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+
+       button{
+        height: 47px;
+        width: 60px;
+        border: none;
+        background-color: rgb(220, 210, 210);
+        cursor: pointer;
+        
+       }
+    }
+}
