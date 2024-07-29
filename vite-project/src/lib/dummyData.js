@@ -2,9 +2,9 @@ export const listData = [
     {
         id:1,
         title:"A Great Apartment Next to the Beach!",
-        // img:
-        bedRooms:2,
-        bathRooms: 1,
+        img:"https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        bedroom:2,
+        bathroom: 1,
         price: 1000,
         address:"456 Park Avenue, London",
         latitude: 51.507,
@@ -13,9 +13,9 @@ export const listData = [
     {
         id:2,
         title:"An Awesome Apartment Near the Park! Almost too good to be true!",
-        // img:
-        bedRooms:3,
-        bathRooms: 2,
+        img:"https://images.pexels.com/photos/7174386/pexels-photo-7174386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        bedroom:3,
+        bathroom: 2,
         price: 1500,
         address:"789 Oxford Street, London",
         latitude: 52.4862,
@@ -24,9 +24,9 @@ export const listData = [
     {
         id:3,
         title:"A Great Apartment Next to the Beach!",
-        // img:
-        bedRooms:1,
-        bathRooms: 1,
+        img:"https://images.pexels.com/photos/3209045/pexels-photo-3209045.jpeg?auto=compress&cs=tinysrgb&w=800",
+        bedroom:1,
+        bathroom: 1,
         price: 800,
         address:"456 Park Avenue, London",
         latitude: 51.507,
@@ -35,9 +35,9 @@ export const listData = [
     {
         id:4,
         title:"A Great Apartment Next to the Beach!",
-        // img:
-        bedRooms:1,
-        bathRooms: 1,
+        img:"https://images.pexels.com/photos/2029694/pexels-photo-2029694.jpeg?auto=compress&cs=tinysrgb&w=800",
+        bedroom:1,
+        bathroom: 1,
         price: 800,
         address:"456 Park Avenue, London",
         latitude: 51.507,
@@ -46,9 +46,9 @@ export const listData = [
     {
         id:5,
         title:"A Great Apartment Next to the Beach!",
-        // img:
-        bedRooms:1,
-        bathRooms: 1,
+        img:"https://images.pexels.com/photos/262405/pexels-photo-262405.jpeg?auto=compress&cs=tinysrgb&w=800",
+        bedroom:1,
+        bathroom: 1,
         price: 800,
         address:"456 Park Avenue, London",
         latitude: 51.507,
@@ -57,9 +57,9 @@ export const listData = [
     {
         id:6,
         title:"A Great Apartment Next to the Beach!",
-        // img:
-        bedRooms:1,
-        bathRooms: 1,
+        img:"https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=800",
+        bedroom:1,
+        bathroom: 1,
         price: 800,
         address:"456 Park Avenue, London",
         latitude: 51.507,
@@ -68,9 +68,9 @@ export const listData = [
     {
         id:7,
         title:"A Great Apartment Next to the Beach!",
-        // img:
-        bedRooms:1,
-        bathRooms: 1,
+        img:"https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800",
+        bedroom:1,
+        bathroom: 1,
         price: 800,
         address:"456 Park Avenue, London",
         latitude: 51.507,
@@ -79,9 +79,9 @@ export const listData = [
     {
         id:8,
         title:"A Great Apartment Next to the Beach!",
-        // img:
-        bedRooms:1,
-        bathRooms: 1,
+        img:"https://images.pexels.com/photos/2587054/pexels-photo-2587054.jpeg?auto=compress&cs=tinysrgb&w=800",
+        bedroom:1,
+        bathroom: 1,
         price: 800,
         address:"456 Park Avenue, London",
         latitude: 51.507,

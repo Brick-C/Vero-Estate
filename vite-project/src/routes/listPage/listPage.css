@@ -3,12 +3,22 @@
     height: 100vh;
     
     .listContainer{
-        flex: 3;
-      
+        width: 60%;
+       
+        .wrapper{
+            height: 100%;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            overflow-y: scroll;
+            width: 100%;
+            padding-bottom: 170px;
+        }
     }
 
     .mapContainer{
-        flex: 2;
+        width: 40%;
         background-color: rgb(251, 246, 240);
         
     }
