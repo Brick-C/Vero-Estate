@@ -93,7 +93,12 @@ export const singlePostData = {
   id: 1,
   title: "A Great Apartment Next to the Beach!",
   price: 1000,
-  images: [],
+  images: [
+    "https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/3209045/pexels-photo-3209045.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/262405/pexels-photo-262405.jpeg?auto=compress&cs=tinysrgb&w=800",
+  ],
   bedroom: 2,
   bathroom: 1,
   size: 861,
@@ -104,7 +109,7 @@ export const singlePostData = {
   school: "250m away",
   bus: "100m away",
   restaurant: "50m away",
-  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quasi qui sequi facere magnam impedit odio asperiores cupiditate omnis?",
 };
 
 export const userData = {

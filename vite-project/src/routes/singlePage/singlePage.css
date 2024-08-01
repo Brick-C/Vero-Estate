@@ -5,10 +5,11 @@
     width: 60%;
 
     .wrapper {
-      padding-right: 30px;
+      padding-right: 29px;
 
       .info {
         .top {
+          margin-top: 45px;
           display: flex;
           justify-content: space-between;
           .post {
@@ -16,7 +17,7 @@
             flex-direction: column;
             gap: 18px;
             h2 {
-              font-size: 20px;
+              font-size: 22px;
             }
             .address {
               display: flex;
