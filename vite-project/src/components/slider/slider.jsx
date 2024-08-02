@@ -3,17 +3,34 @@ import "./slider.css";
 
 const slider = ({ images }) => {
   const [imageIndex, setImageIndex] = useState(null);
+
+  const sliderChange = (direction) => {
+    if (direction === "left") {
+      if (imageIndex === 0) {
+        setImageIndex(images.length - 1);
+      } else {
+        setImageIndex(imageIndex - 1);
+      }
+    } else {
+      if (imageIndex === images.length - 1) {
+        setImageIndex(0);
+      } else {
+        setImageIndex(imageIndex + 1);
+      }
+    }
+  };
+
   return (
     <div className="slider">
       {imageIndex !== null && (
         <div className="fullSlider">
-          <div className="arrow">
+          <div className="arrow" onClick={sliderChange("left")}>
             <img src="../images/arrow.png" alt="" />
           </div>
           <div className="imgContainer">
             <img src={images[imageIndex]} alt="" />
           </div>
-          <div className="arrow">
+          <div className="arrow" onClick={() => sliderChange("right")}>
             <img src="../images/arrow.png" id="right" alt="" />
           </div>
           <div className="close" onClick={() => setImageIndex(null)}>
