@@ -1,0 +1,75 @@
+.profilePage {
+  display: flex;
+  height: 100%;
+  .details {
+    width: 60%;
+    overflow-y: auto;
+    padding-bottom: 150px;
+    margin-top: 13px;
+    .wrapper {
+      padding-right: 29px;
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #myList {
+          margin-bottom: 40px;
+        }
+
+        #saved {
+          margin-bottom: 20px;
+          margin-top: 50px;
+        }
+
+        h1 {
+          font-size: 30px;
+          font-weight: 500;
+        }
+        button {
+          background-color: rgb(252, 219, 179);
+          color: black;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          font-size: 15px;
+          font-weight: 600;
+          cursor: pointer;
+          &:hover {
+            background-color: rgb(190, 187, 183);
+          }
+        }
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        span {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        img {
+          width: 45px;
+          height: 45px;
+          margin-left: 10px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .chat {
+    width: 40%;
+    background-color: rgb(251, 246, 240);
+    height: 100%;
+    .wrapper {
+      padding: 0px 20px;
+    }
+  }
+}

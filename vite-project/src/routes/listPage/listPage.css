@@ -1,26 +1,25 @@
-.listpage{
-    display: flex;
-    height: 100vh;
-    
-    .listContainer{
-        width: 60%;
-       
-        .wrapper{
-            height: 100%;
-            padding-right: 10px;
-            display: flex;
-            flex-direction: column;
-            gap: 50px;
-            overflow-y: scroll;
-            width: 100%;
-            padding-bottom: 170px;
-        }
-    }
+.listpage {
+  display: flex;
+  height: 100vh;
 
-    .mapContainer{
-        width: 40%;
-        height: 100%;
-        background-color: rgb(251, 246, 240);
-        
+  .listContainer {
+    width: 60%;
+
+    .wrapper {
+      height: 100%;
+      padding-right: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      overflow-y: auto;
+      width: 100%;
+      padding-bottom: 170px;
     }
+  }
+
+  .mapContainer {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(251, 246, 240);
+  }
 }
