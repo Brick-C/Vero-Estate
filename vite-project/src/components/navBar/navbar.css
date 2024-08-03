@@ -1,68 +1,107 @@
-nav{
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+
+  a {
+    transition: all 0.4s ease;
+
+    &:hover {
+      font-size: 1.05em;
+    }
+  }
+
+  .left {
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     align-items: center;
-    height: 100px;
 
-    a{
-        transition: all 0.4s ease;
-
-        &:hover{
-            font-size: 1.05em;
-        }
-      
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    img {
+      width: 28px;
     }
 
-    .left{
-        width: 60%;
-        display: flex;
-        gap: 50px;
-        align-items: center;
-
-        .logo{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 20px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-        img{
-            width: 28px;
-        }
-
-        a{
-            text-decoration: none;
-            color: black;
-            
-        }
+    a {
+      text-decoration: none;
+      color: black;
     }
-    .right{
-        width: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 25px;
-        background-color: rgb(251, 246, 240);
-        height: 100%;
+  }
+  .right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    background-color: rgb(251, 246, 240);
+    height: 100%;
 
-        .log{
-            padding: 10px 17px;
-            border-radius: 4px;
-            text-decoration: none;
-            color: black;
-            font-weight: 600;
-        }
+    .user {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
 
-        .register{
-            background-color: rgb(252, 219, 179);
-            padding: 10px 17px;
-            border-radius: 4px;
-            text-decoration: none;
-            color: black;
-            font-weight: 600;
-            margin-right: 16px;
+      img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+      span {
+        margin-right: 22px;
+      }
+
+      .profile {
+        background-color: rgb(252, 219, 179);
+        padding: 11px 17px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-right: 21px;
+        color: black;
+        position: relative;
+
+        .notification {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          top: -5px;
+          right: -5px;
+          height: 24px;
+          width: 24px;
+          background-color: red;
+          color: white;
+          border-radius: 50%;
         }
+      }
     }
+
+    .log {
+      padding: 10px 17px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+    }
+
+    .register {
+      background-color: rgb(252, 219, 179);
+      padding: 10px 17px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      margin-right: 16px;
+    }
+  }
 }

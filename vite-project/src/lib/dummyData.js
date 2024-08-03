@@ -109,7 +109,7 @@ export const singlePostData = {
   school: "250m away",
   bus: "100m away",
   restaurant: "50m away",
-  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quasi qui sequi facere magnam impedit odio asperiores cupiditate omnis?",
+  desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita numquam, at modi minima ex libero quis excepturi aut necessitatibus tempore consectetur unde a ratione odit distinctio nemo quo blanditiis eius deleniti fuga. Dolore non, vero asperiores explicabo autem modi laudantium, quis quam, dicta facilis laboriosam. Dolore dolorem accusamus numquam minima! Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores dicta quasi qui sequi facere magnam impedit odio asperiores cupiditate omnis?",
 };
 
 export const userData = {
